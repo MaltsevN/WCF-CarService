@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 using System.Runtime.Serialization;
 
 namespace CarService
-{   [DataContract]
+{
+    [KnownType(typeof(TruckCar))]
+    [KnownType(typeof(PassengerCar))]
+    [DataContract]
     public class Car
     {
         [DataMember]

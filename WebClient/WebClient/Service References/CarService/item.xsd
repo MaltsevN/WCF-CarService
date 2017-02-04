@@ -9,4 +9,24 @@
     </xs:sequence>
   </xs:complexType>
   <xs:element name="Car" nillable="true" type="tns:Car" />
+  <xs:complexType name="TruckCar">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Car">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Capacity" type="xs:double" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TruckCar" nillable="true" type="tns:TruckCar" />
+  <xs:complexType name="PassengerCar">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Car">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Passengers" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PassengerCar" nillable="true" type="tns:PassengerCar" />
 </xs:schema>

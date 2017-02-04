@@ -17,6 +17,8 @@ namespace WebClient.CarService {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="Car", Namespace="http://schemas.datacontract.org/2004/07/CarService")]
     [System.SerializableAttribute()]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(WebClient.CarService.TruckCar))]
+    [System.Runtime.Serialization.KnownTypeAttribute(typeof(WebClient.CarService.PassengerCar))]
     public partial class Car : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
         
         [System.NonSerializedAttribute()]
@@ -102,6 +104,52 @@ namespace WebClient.CarService {
             System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
             if ((propertyChanged != null)) {
                 propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TruckCar", Namespace="http://schemas.datacontract.org/2004/07/CarService")]
+    [System.SerializableAttribute()]
+    public partial class TruckCar : WebClient.CarService.Car {
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private double CapacityField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public double Capacity {
+            get {
+                return this.CapacityField;
+            }
+            set {
+                if ((this.CapacityField.Equals(value) != true)) {
+                    this.CapacityField = value;
+                    this.RaisePropertyChanged("Capacity");
+                }
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="PassengerCar", Namespace="http://schemas.datacontract.org/2004/07/CarService")]
+    [System.SerializableAttribute()]
+    public partial class PassengerCar : WebClient.CarService.Car {
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int PassengersField;
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Passengers {
+            get {
+                return this.PassengersField;
+            }
+            set {
+                if ((this.PassengersField.Equals(value) != true)) {
+                    this.PassengersField = value;
+                    this.RaisePropertyChanged("Passengers");
+                }
             }
         }
     }
