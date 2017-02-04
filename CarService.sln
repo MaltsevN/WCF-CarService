@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService", "CarService\CarService.csproj", "{30DFDC91-C9E1-4E32-A727-5080280D4065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarHost", "CarHost\CarHost.csproj", "{417773FD-4AD1-434C-886C-967F6228D2E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30DFDC91-C9E1-4E32-A727-5080280D4065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DFDC91-C9E1-4E32-A727-5080280D4065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DFDC91-C9E1-4E32-A727-5080280D4065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DFDC91-C9E1-4E32-A727-5080280D4065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417773FD-4AD1-434C-886C-967F6228D2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417773FD-4AD1-434C-886C-967F6228D2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417773FD-4AD1-434C-886C-967F6228D2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417773FD-4AD1-434C-886C-967F6228D2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

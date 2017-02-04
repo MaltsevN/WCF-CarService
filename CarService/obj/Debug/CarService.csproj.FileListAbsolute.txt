@@ -1,0 +1,6 @@
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarService\bin\Debug\CarService.dll.config
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarService\bin\Debug\CarService.dll
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarService\bin\Debug\CarService.pdb
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarService\obj\Debug\CarService.dll
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarService\obj\Debug\CarService.pdb
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarService\obj\Debug\CarService.csprojResolveAssemblyReference.cache

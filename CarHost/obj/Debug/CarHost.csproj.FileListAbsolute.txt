@@ -1,0 +1,8 @@
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarHost\bin\Debug\CarHost.exe.config
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarHost\bin\Debug\CarHost.exe
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarHost\bin\Debug\CarHost.pdb
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarHost\bin\Debug\CarService.dll
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarHost\bin\Debug\CarService.pdb
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarHost\obj\Debug\CarHost.csprojResolveAssemblyReference.cache
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarHost\obj\Debug\CarHost.exe
+C:\Users\svezho\documents\visual studio 2015\Projects\CarService\CarHost\obj\Debug\CarHost.pdb
